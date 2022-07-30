@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+body{
+    background-color: #f1f1f1;
+    color:#0f141e;
+
+font-size: 14px;
+font-weight:normal;
+font-family: 'Roboto', sans-serif;
+
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{                /* Наведение на ссылку*/
+    text-decoration:underline;
+}
+
+a:active{               /* При нажимании */
+    color:blue;
+}
+
+a:visited{              /* Посещенная ссылка */
+    color:rgba(205, 54, 145, 0.959);
+}
+
+.ava{
+    width: 250px;    
+    height: 350px;           /* Размер */
+    border-radius:28px;         /* Загруление */
+    box-shadow: 4px 4px 14px;   /* Тень картинки */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.alina{
+    width: 12px;               /* Размер */
+    border-radius:28px;         /* Загруление */
+    /* box-shadow: 4px 4px 14px;   Тень картинки */
+}
+
+
+
+.info p{
+    color:#111111;            /* Цвет текста */
+    margin: 0;                  /* Поля текста*/
+    font-style:normal;          /* Стиль текста */
+    font-weight: bold;          /* Жирность текста и тд. */ 
+    text-decoration:none;     /* Подчеркивание текста, и т.д.  */
+    text-transform:none;        /* Регистры текста */
+    letter-spacing: 0px;        /* Растояние между буквами */
+    word-spacing: 1px;          /* Растояние между словами */ 
+}
+
+.info{
+    display: flex;
+}
+
+@media(max-width: 700px){
+    .info{
+        text-align: center;
+        display:block;
+    }
+    .contact{
+        text-align: center;
+        display:block;
+    }
+} 
+.info-text{
+    margin-left: 40px;
+}
+
+.info-text h4{
+    margin-bottom: 10px;
+}
+
+.info h5{
+    font-style: italic;
+}
+
+.hobbi{
+    background-color: #557ccc6e;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.hobbi h2{
+    text-align: center;
+}
+
+
+.course{
+    background-color: #cc9e556e;
+    border-radius: 10px;
+    padding: 10px;
+    margin:  20px;
+}
+
+.course h2{
+    text-align: center;
+}
+
+.work{
+    background-color: #cde4556e;
+    border-radius: 10px;
+    padding: 10px; 
+    margin:  20px;
+}
+
+.work h2{
+    text-align: center;
+}
+
+
+/* Box model */
+
+.container{
+    max-width: 750px;
+    margin:auto;
+    padding-top: 30px;
+}
+
+
+/* .social{ */
+    /* background:cyan;        Цвет фона данного блока */
+    /* padding: 15px;            Внутренние отступы (если два значения, то первое вверх и низ, второе лево и право, далее по часовй стрелке) */
+    /* border: 5px solid black;   Рамка блока */
+    /* margin: 20px;               Внешние отступы */
+    /* border-bottom-style:dotted; */
+/* } */
+
+/* .box-model > div{
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: 4px solid red;
+    box-sizing: border-box;
+} */
+
+.list{
+    padding: 0px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.list li{
+    margin-bottom: 5px;
+    list-style-type:upper-roman;
+}
+.table{
+    width: 100%;
+}
+
+.table td, th{
+    padding-bottom:10px;
+}
+
+.table td:nth-child(1){
+    color:rgb(0, 0, 0);
+    font-weight: normal;
+    font-family: 'Mochiy Pop One', sans-serif
+}
+
+.table td:nth-child(2){
+    color:rgb(15, 8, 8);
+    font-weight: normal;
+    font-size: large;
+    font-family:'Lobster', cursive;
+}
+
+.table td:nth-child(3){
+    color:rgb(15, 8, 8);
+    font-weight: normal;
+    font-size:x-large;
+    font-weight: bolder;
+    font-family:'Caveat', cursive;
+}
+
+.table thead{
+    font-weight:bold;
+    color:rgb(3, 3, 3);
+    font-size:large;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-group label{
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-group1 label{
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-group input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    margin:5px 0px;
+    padding:5px;
+    color:#111111;
+    outline:none;
+    font-family: inherit;
+    /* background: transparent; */
+    
+}
+
+.form-group2 {
+    outline:none;
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.form-group textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    margin:5px 0px;
+    padding:5px;
+    color:#111111;
+    outline:none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+.row > .form-group:last-child{
+    margin-right:0px;
+}
+
+.button{
+    background-color: #ccc;
+    padding: 10px 30px;
+    margin-left: 40%;
+    margin-right: 50%;
+    border: none;
+    font-family: inherit;
+    cursor:pointer;
+}
+
+.button:hover {
+    opacity: 0.7;
+    color:#fe10106e;
+}
+
+/* Position */
+
+/* .position{
+    position:relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 50px;
+    height: 50px;
+    background:lightcoral
+
+} */
